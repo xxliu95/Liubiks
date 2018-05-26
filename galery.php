@@ -38,7 +38,7 @@ foreach($images as $image) {
         echo '<img src="'.$image.'" style="width: 100%; align-items: center"/><br />';
         echo '</div>';
         echo '</section>';
-        $bgboolean = false;
+        $bgboolean = true;
     }
 }
 ?>

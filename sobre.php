@@ -33,9 +33,7 @@
                     me gusta resolver y coleccionar cubos de rubik.
                 </p>
                 <p style="text-align: center" >
-                    <video controls width="300px" >
-                        <source src="img/videos/IMG_9474.MOV">
-                    </video>
+                    <iframe width="450" height="800" src="https://www.youtube.com/embed/V6qq3xxH5Tk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </p>
             </div>
         </div>

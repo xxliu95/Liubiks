@@ -3,12 +3,12 @@ ini_set('display_errors','On');
 error_reporting(E_ALL | E_STRICT);
 
 function is_valido($fichero){
-    $extValidas = array("gif","jpeg","jpg","png");
+    $extValidas = array("gif","JPG","jpeg","jpg","png");
     $temp = explode(".", $_FILES[$fichero]["name"]);
     $extension = end($temp);
     $tipo = $_FILES[$fichero]["type"];
     $tiposValidos = array("image/jpeg","image/jpg","image/pjpeg","image/x-png","image/png");
-    $maxTamano = 1000000;
+    $maxTamano = 100000000;
     return (in_array($extension, $extValidas)
         && in_array($tipo, $tiposValidos) && ($_FILES[$fichero]['size'] < $maxTamano));
 }
